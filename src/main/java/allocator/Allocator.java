@@ -46,7 +46,7 @@ public class Allocator {
 		resultSummaryManager.setUpErrorLog();
 		executeTestBatch(nThread);
 		resultSummaryManager.wrapUp(false);
-		//resultSummaryManager.launchResultSummary();
+		resultSummaryManager.launchResultSummary();
 
 	}
 

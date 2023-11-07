@@ -23,7 +23,7 @@ public class SamplePage extends ReusableLibrary{
 		driver.get("https://www.google.com/");
 		WebElement findElement = driver.findElement(By.name("q"));
 		findElement.sendKeys(data1+data2+data3+data4);
-	//	Thread.sleep(5000);
+		Thread.sleep(5000);
 		report.updateTestLog("Sample Google Login", "Launch and entered into Google", Status.PASS);
 		report.updateTestLog("Sample Google Login", "Launch and entered into Google", Status.FAIL);
 		report.updateTestLog("Sample Google Login", "Launch and entered into Google", Status.PASS);
